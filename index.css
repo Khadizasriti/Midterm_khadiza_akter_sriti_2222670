@@ -3,9 +3,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #eecae2;
 }
 header {
-  background-color: #e0a5db;
+  background-color: #462c43;
   color: #fff;
   padding: 1em 0;
   text-align: center;
@@ -30,5 +31,47 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+}
+
+.cake {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.images img {
+  width: 300px;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer a:hover {
   text-decoration: underline;
 }
